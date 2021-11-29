@@ -9,3 +9,6 @@ To run it:
 2. In your python interpreter type: `python python_authtoken_apirequest.py`
 3. If you get module not found errors, ensure you have the requests and urllib3 libraries installed and/or your environment is setup correctly.
 4. You can install the required libraries bu running `pip install << required library >>`
+
+If you have any trouble running the script, feel free to contact us at: support@nsacom.com
+
