@@ -12,9 +12,9 @@ test_api_url = "https://mingle-ionapi.inforcloudsuite.com/<< REPLACE WITH YOUR T
 
 # IONAPI Request - Replace payload with your own request
 payload = """{
-              "CompanyNumber": 1,
-              "Operator": "sys",
-              "TableName": "sasp",
+              "CompanyNumber": << YOUR CONO >>,
+              "Operator": "<< YOUR SASO USERID >>",
+              "TableName": "<< TABLE TO QUERY >>",
               "WhereClause": "",
               "BatchSize": 0,
               "RestartRowID": ""
