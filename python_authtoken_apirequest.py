@@ -5,15 +5,15 @@ urllib3.disable_warnings()
 ###  Step 1 - Define auth URL, Endpoint URL, Payload and Credentials  ###
 
 # PU + OT - Replace with your tenants token URL
-token_url = "https://mingle-sso.inforcloudsuite.com:443/NSACOM_DEM/as/token.oauth2"
+token_url = "https://mingle-sso.inforcloudsuite.com:443/<< REPLACE WITH YOUR TENANT >>/as/token.oauth2"
 
 # Endpoint URL - Can get from swagger documentation in IONAPI - Replace with your tenants API URL
-test_api_url = "https://mingle-ionapi.inforcloudsuite.com/NSACOM_DEM/SX/rest/serviceinterface/proxy/FetchWhere"
+test_api_url = "https://mingle-ionapi.inforcloudsuite.com/<< REPLACE WITH YOUR TENANT >>/SX/rest/serviceinterface/proxy/FetchWhere"
 
 # IONAPI Request - Replace payload with your own request
 payload = """{
               "CompanyNumber": 1,
-              "Operator": "RT01",
+              "Operator": "sys",
               "TableName": "sasp",
               "WhereClause": "",
               "BatchSize": 0,
