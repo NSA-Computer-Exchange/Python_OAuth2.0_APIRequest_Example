@@ -5,6 +5,8 @@ nav:
   - Main: index.md
   - What's next: whatsnext.md
 
-theme: material
+theme:
+  name: material
+  logo: 'img/nsalogo.jpg'
 
 repo_url: https://github.com/NSA-Computer-Exchange/Python_OAuth2.0_APIRequest_Example/tree/main
