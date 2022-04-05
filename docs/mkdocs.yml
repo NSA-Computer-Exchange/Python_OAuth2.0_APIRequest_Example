@@ -1,0 +1,10 @@
+site_name: Sample Python OAuth & Fetch Script Using Requests
+site_url: https://github.com/NSA-Computer-Exchange/Python_OAuth2.0_APIRequest_Example
+
+nav: 
+  - Main: index.md
+  - What's next: whatsnext.md
+
+theme: material
+
+repo_url: https://github.com/NSA-Computer-Exchange/Python_OAuth2.0_APIRequest_Example/tree/main
